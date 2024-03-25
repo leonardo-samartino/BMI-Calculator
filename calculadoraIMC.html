@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <script src="js/index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imgs/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <!-- utilizei a tag <main> para posicionar o corpo da calculadora no centro da tela -->
+    <main>
+        <!-- div para o corpo da calculadora -->
+        <div class="calculator">
+            <h2>CALCULE SEU IMC</h2>
+            <div class="inputPeso">
+                <label>Peso:</label><br><input type="text" name="peso" id="peso" placeholder="Ex:80.5">
+            </div>
+            <div class="inputAltura">
+                <label>Altura em cm:</label><br><input type="text" name="altura" id="altura" placeholder="Ex: 180">
+            </div>
+            <p>Valor do IMC: <span id="resultadoIMC"></span> </p>
+            <p>Status do IMC: <span id="statusIMC"></span> </p>
+            <!-- div para posicionar e alinhar os botões simultâneamente -->
+            <div class="buttons">
+                <input type="button" name="btn_calcular" id="calcular" value="Calcular" class="botao" onclick="getDadosInput()">
+                <input type="button" name="btn_resetar" id="resetar" value="Reset" class="botao" onclick="setResetForm()">
+            </div>
+        </div>
+        
+    </main>
+    
+</body>
+<!-- Leonardo G. Samartino -->
+</html>
