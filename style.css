@@ -11,6 +11,7 @@
 }
 /* Background */
 body{
+    /* Background img from freepik.com */
     background-image: url(imgs/Background.jpg);
     background-size: cover;
 }
