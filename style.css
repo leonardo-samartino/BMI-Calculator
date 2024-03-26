@@ -5,7 +5,7 @@
 *{
     font-family: "Montserrat", sans-serif;
     color: #393655;
-    text-shadow: 1px 1px 1px#ffffff;
+    /* text-shadow: 1px 1px 1px#ffffff; */
     text-align: center;
     font-weight: 700;
     
@@ -40,8 +40,8 @@ main{
 /* Estilização do Titúlo */
 .calculator h2{
     font-weight: 500;
-    /* color: #393655; */
-    /* text-shadow: 2px 1px 1px#ffffff; */
+    
+    
 }
 /* Estilização das caixas de input */
 #peso, #altura{
