@@ -4,9 +4,10 @@
 /*Configurações globais*/
 *{
     font-family: "Montserrat", sans-serif;
-    color: white;
-    text-shadow: 2px 2px 1px#393655;
+    color: #393655;
+    text-shadow: 1px 1px 1px#ffffff;
     text-align: center;
+    font-weight: 700;
     
 }
 /* Background */
@@ -38,9 +39,9 @@ main{
 }
 /* Estilização do Titúlo */
 .calculator h2{
-    font-weight: 400;
-    color: white;
-    text-shadow: 2px 1px 1px#393655;
+    font-weight: 500;
+    /* color: #393655; */
+    /* text-shadow: 2px 1px 1px#ffffff; */
 }
 /* Estilização das caixas de input */
 #peso, #altura{
@@ -70,5 +71,7 @@ main{
     border: solid 1px rgba(255, 255, 255, 0.6);
     margin: 10px;
     color: white;
-    background-color: #35709A;   
+    background-color: #35709A;
+    text-shadow: none;
+    font-weight: 500;   
 }
